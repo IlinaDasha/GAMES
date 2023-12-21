@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.douggschwind.games.boardgames.monopoly.PlayerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-21T06:41:37" hostname="LAPTOP-3ED8386C" time="0.065">
+  <properties/>
+  <testcase name="testReceivePayment()" classname="org.douggschwind.games.boardgames.monopoly.PlayerTest" time="0.032"/>
+  <testcase name="testAcceptOwnership()" classname="org.douggschwind.games.boardgames.monopoly.PlayerTest" time="0.017"/>
+  <testcase name="testInitialBankAccountBalance()" classname="org.douggschwind.games.boardgames.monopoly.PlayerTest" time="0.001"/>
+  <testcase name="testCanPayBillWithCash()" classname="org.douggschwind.games.boardgames.monopoly.PlayerTest" time="0.001"/>
+  <testcase name="testMakePayment()" classname="org.douggschwind.games.boardgames.monopoly.PlayerTest" time="0.002"/>
+  <testcase name="testRollDice()" classname="org.douggschwind.games.boardgames.monopoly.PlayerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
