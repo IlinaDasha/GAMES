@@ -1,6 +1,7 @@
 plugins {
     id 'java'
-
+    id 'jacoco'
+    id 'application'
 }
 
 repositories {
@@ -39,5 +40,12 @@ allprojects {
 }
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
+}
+jacocoTestReport {
+    dependsOn test
 }
 
+task myJavadocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+}
